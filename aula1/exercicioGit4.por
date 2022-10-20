@@ -14,11 +14,8 @@ programa {
     escreva("Informe numero4: ")
     leia(numero4)
 
-    p1 = (numero1 * numero2)
-    p2 = (numero3 * numero4)
+    diferenca = (numero1 * numero2)-(numero3 * numero4)
 
-    diferenca = (p1 - p2)
-
-    escreva("diferença : ", diferenca)
+    escreva("a diferença do produto é :", diferenca)
   }
 }
